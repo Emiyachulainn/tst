@@ -1,0 +1,837 @@
+.clear {
+  clear: both;
+}
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.common {
+  width: 1020px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  height: 120px;
+  background: url(../images/header_bg.jpg);
+}
+.header .logo {
+  float: left;
+  margin-top: 20px;
+}
+.header .guide {
+  padding: 0;
+  float: right;
+  margin: 0;
+  list-style: none;
+  padding-top: 50px;
+}
+.header .guide .project {
+  margin: 0 5px;
+  display: inline-block;
+  height: 70px;
+  float: left;
+}
+.header .guide .project a {
+  display: block;
+  height: 25px;
+  color: white;
+  line-height: 25px;
+}
+.header .guide .project a span {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background: url(../images/nav_triangle.png) no-repeat;
+  float: right;
+  margin-left: 5px;
+}
+.header .guide .project a:hover span {
+  display: block;
+  background: url(../images/nav_triangle_hover.png) no-repeat;
+}
+.header .guide .project .down_box {
+  display: none;
+  padding: 0;
+  margin: 0;
+  background: #36264A;
+  width: 180px;
+  line-height: 40px;
+  position: absolute;
+  list-style: none;
+  top: 100px;
+  z-index: 2;
+}
+.header .guide .project .down_box .db_pj {
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+.header .guide .project .down_box .db_pj:hover {
+  background: #6095be;
+  padding-left: 30px;
+  transition: 0.3s;
+}
+.header .guide .project .down_box .db_pj:hover:after {
+  content: url(../images/nav_li_bg.png);
+  float: right;
+}
+.footer {
+  height: 350px;
+  background: url(../images/yinyue_bg.jpg);
+}
+.footer .top {
+  height: 30px;
+  background: url(../images/map_bottomimg.png) center;
+  position: relative;
+  top: -30px;
+}
+.footer .music {
+  padding: 116px 0 0 276px;
+  height: 67px;
+}
+.footer .music > span {
+  float: left;
+  cursor: pointer;
+  width: 57px;
+  height: 57px;
+  background: url(../images/yinyue_duo.png) no-repeat;
+  margin-right: 26px;
+}
+.footer .music > span:hover {
+  background-position: 0 -57px;
+  animation: 1s linear 0s normal none 1 running su-pudding;
+}
+.footer .music .lai {
+  background: url(../images/yinyue_lai.png) no-repeat;
+}
+.footer .music .mi {
+  background: url(../images/yinyue_mi.png) no-repeat;
+}
+.footer .music .fa {
+  background: url(../images/yinyue_fa.png) no-repeat;
+}
+.footer .music .suo {
+  background: url(../images/yinyue_suo.png) no-repeat;
+}
+.footer .music .la {
+  background: url(../images/yinyue_la.png) no-repeat;
+}
+.footer .music .xi {
+  background: url(../images/yinyue_xi.png) no-repeat;
+}
+.footer .bottom {
+  border-top: 2px #9890a2 dashed;
+  text-align: center;
+  line-height: 65px;
+  margin-top: 79px;
+  color: #fff;
+  cursor: pointer;
+}
+.fixed {
+  width: 87px;
+  height: 161px;
+  position: fixed;
+  right: 40px;
+  bottom: 200px;
+  display: block;
+}
+.fixed .fix_top {
+  background: url(../images/scroll_top_bg.png) no-repeat;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  margin-left: 17px;
+  margin-bottom: 24px;
+}
+.fixed .fix_top:hover {
+  background-position: 0 -50px;
+  transition: all 0.3s ease 0s;
+}
+.fixed .fix_next {
+  width: 87px;
+  height: 87px;
+  position: absolute;
+  right: 0;
+  top: 74px;
+  background: url(../images/fixed_contactus.png) top right no-repeat;
+  cursor: pointer;
+}
+.fixed .fix_next:hover {
+  animation: 1s linear 0s normal none 1 running su-pudding;
+  transition: all 0.5s ease 0s;
+}
+@keyframes su-pudding {
+  0% {
+    transform: scale(1.2, 0.8);
+  }
+  1% {
+    transform: scale(1.18, 0.82);
+  }
+  2% {
+    transform: scale(1.16, 0.84);
+  }
+  3% {
+    transform: scale(1.13, 0.87);
+  }
+  4% {
+    transform: scale(1.1, 0.9);
+  }
+  5% {
+    transform: scale(1.07, 0.93);
+  }
+  6% {
+    transform: scale(1.04, 0.96);
+  }
+  7% {
+    transform: scale(1.01, 0.99);
+  }
+  8% {
+    transform: scale(0.99, 1.01);
+  }
+  9% {
+    transform: scale(0.97, 1.03);
+  }
+  10% {
+    transform: scale(0.95, 1.05);
+  }
+  11% {
+    transform: scale(0.94, 1.06);
+  }
+  12% {
+    transform: scale(0.93, 1.07);
+  }
+  13% {
+    transform: scale(0.93, 1.07);
+  }
+  14% {
+    transform: scale(0.93, 1.07);
+  }
+  15% {
+    transform: scale(0.93, 1.07);
+  }
+  16% {
+    transform: scale(0.94, 1.06);
+  }
+  17% {
+    transform: scale(0.94, 1.06);
+  }
+  18% {
+    transform: scale(0.95, 1.05);
+  }
+  19% {
+    transform: scale(0.96, 1.04);
+  }
+  20% {
+    transform: scale(0.98, 1.02);
+  }
+  21% {
+    transform: scale(0.99, 1.01);
+  }
+  22% {
+    transform: scale(1, 1);
+  }
+  23% {
+    transform: scale(1, 1);
+  }
+  24% {
+    transform: scale(1.01, 0.99);
+  }
+  25% {
+    transform: scale(1.02, 0.98);
+  }
+  26% {
+    transform: scale(1.02, 0.98);
+  }
+  27% {
+    transform: scale(1.02, 0.98);
+  }
+  28% {
+    transform: scale(1.03, 0.97);
+  }
+  29% {
+    transform: scale(1.03, 0.97);
+  }
+  30% {
+    transform: scale(1.02, 0.98);
+  }
+  31% {
+    transform: scale(1.02, 0.98);
+  }
+  32% {
+    transform: scale(1.02, 0.98);
+  }
+  33% {
+    transform: scale(1.02, 0.98);
+  }
+  34% {
+    transform: scale(1.01, 0.99);
+  }
+  35% {
+    transform: scale(1.01, 0.99);
+  }
+  36% {
+    transform: scale(1.01, 0.99);
+  }
+  37% {
+    transform: scale(1, 1);
+  }
+  38% {
+    transform: scale(1, 1);
+  }
+  39% {
+    transform: scale(1, 1);
+  }
+  40% {
+    transform: scale(0.99, 1.01);
+  }
+  41% {
+    transform: scale(0.99, 1.01);
+  }
+  42% {
+    transform: scale(0.99, 1.01);
+  }
+  43% {
+    transform: scale(0.99, 1.01);
+  }
+  44% {
+    transform: scale(0.99, 1.01);
+  }
+  45% {
+    transform: scale(0.99, 1.01);
+  }
+  46% {
+    transform: scale(0.99, 1.01);
+  }
+  47% {
+    transform: scale(0.99, 1.01);
+  }
+  48% {
+    transform: scale(0.99, 1.01);
+  }
+  49% {
+    transform: scale(1, 1);
+  }
+}
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block;
+}
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block;
+}
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none;
+}
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.cen_cont {
+  background: #f1f2f6;
+}
+.cen_cont .cen {
+  width: 1085px;
+  margin: 0 auto;
+  min-height: 500px;
+  padding-top: 120px;
+  overflow: hidden;
+  font-family: "SimSun";
+}
+.cen_cont .cen > h1 {
+  text-align: center;
+  font-size: 54px;
+  color: #311759;
+  line-height: 60px;
+}
+.cen_cont .cen > h2 {
+  font-weight: normal;
+  font-size: 18px;
+  color: #311759;
+  letter-spacing: 6px;
+  text-align: center;
+}
+.cen_cont .cen > img {
+  margin: 0 auto;
+  display: block;
+  margin-top: 15px;
+}
+.cen_cont .cen > h3 {
+  color: #311759;
+  font-size: 30px;
+  background: url(../images/pen_line_long.png) no-repeat 0px 58px;
+  height: 60px;
+  position: relative;
+  margin-top: 70px;
+}
+.cen_cont .cen > h3 .cont_pen {
+  width: 61px;
+  height: 58px;
+  background: url(../images/pen_article.png) no-repeat;
+  position: absolute;
+  right: 0px;
+  top: 7px;
+  cursor: pointer;
+}
+.cen_cont .cen .cont {
+  padding-top: 40px;
+  overflow: hidden;
+}
+.cen_cont .cen .cont .list {
+  width: 500px;
+  height: 202px;
+  float: left;
+  background: #fff;
+  padding: 36px 0 0 20px;
+  margin: 0 20px 30px 0;
+  border: 1px solid #fff;
+  cursor: pointer;
+  position: relative;
+}
+.cen_cont .cen .cont .list .list_left {
+  height: 168px;
+  width: 250px;
+  overflow: hidden;
+  float: left;
+  margin-right: 15px;
+}
+.cen_cont .cen .cont .list .list_left > img {
+  width: 100%;
+}
+.cen_cont .cen .cont .list .list_right {
+  width: 210px;
+  float: left;
+}
+.cen_cont .cen .cont .list .list_right > h1 {
+  font-size: 20px;
+  color: #454548;
+  line-height: 25px;
+  max-height: 53px;
+  overflow: hidden;
+  padding-top: 5px;
+}
+.cen_cont .cen .cont .list .list_right > h2 {
+  color: #6b6a6f;
+  font-family: 'Arial';
+  font-size: 12px;
+  padding-top: 2px;
+}
+.cen_cont .cen .cont .list .list_right > p {
+  color: #47464a;
+  line-height: 25px;
+  max-height: 75px;
+  font-size: 12px;
+  overflow: hidden;
+  letter-spacing: 0px;
+}
+.cen_cont .cen .cont .list .list_right > span {
+  color: #979797;
+  font-size: 12px;
+  float: right;
+}
+.cen_cont .cen .cont .list .list_right > span > span {
+  padding: 0 5px;
+}
+.cen_cont .cen .cont .list > img {
+  position: absolute;
+  left: 0px;
+  top: 36px;
+}
+.cen_cont .cen .cont_btm {
+  margin: 30px auto 0;
+}
+.cen_cont .cen .cont_last {
+  height: 58px;
+  width: 58px;
+  background: url(../images/lis_more_btn_bg.png) no-repeat 0 -58px;
+  margin: 15px auto 130px;
+  cursor: pointer;
+}
+.cen_cont .cen .cont_last:hover {
+  background-position: 0 0px;
+  transition: all 0.4s ease 0s;
+}

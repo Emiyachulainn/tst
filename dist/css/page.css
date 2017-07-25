@@ -1,0 +1,1127 @@
+.clear {
+  clear: both;
+}
+a,
+a:link,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+.common {
+  width: 1020px;
+  margin: 0 auto;
+}
+.header {
+  background: #221236 url(../images/aboutxiaoniao/beader_bg.jpg) top center;
+  min-width: 1020px;
+  font-family: 'SimSun';
+}
+.header .coom {
+  height: 50px;
+  width: 1020px;
+  margin: 0 auto;
+}
+.header .coom .logo {
+  float: left;
+  cursor: pointer;
+  border: none 0;
+  padding-right: 45px;
+}
+.header .coom .guide {
+  padding: 0;
+  float: left;
+  margin: 0;
+  list-style: none;
+}
+.header .coom .guide .project {
+  margin: 0 5px;
+  display: inline-block;
+  float: left;
+  padding: 10px 15px;
+}
+.header .coom .guide .project a {
+  display: block;
+  height: 25px;
+  color: #9991a3;
+  line-height: 25px;
+}
+.header .coom .guide .project a:hover {
+  color: #e5e3e8;
+}
+.footer {
+  height: 350px;
+  background: url(../images/yinyue_bg.jpg);
+}
+.footer .top {
+  height: 30px;
+  background: url(../images/map_bottomimg.png) center;
+  position: relative;
+  top: -30px;
+}
+.footer .music {
+  padding: 116px 0 0 276px;
+  height: 67px;
+}
+.footer .music > span {
+  float: left;
+  cursor: pointer;
+  width: 57px;
+  height: 57px;
+  background: url(../images/yinyue_duo.png) no-repeat;
+  margin-right: 26px;
+}
+.footer .music > span:hover {
+  background-position: 0 -57px;
+  animation: 1s linear 0s normal none 1 running su-pudding;
+}
+.footer .music .lai {
+  background: url(../images/yinyue_lai.png) no-repeat;
+}
+.footer .music .mi {
+  background: url(../images/yinyue_mi.png) no-repeat;
+}
+.footer .music .fa {
+  background: url(../images/yinyue_fa.png) no-repeat;
+}
+.footer .music .suo {
+  background: url(../images/yinyue_suo.png) no-repeat;
+}
+.footer .music .la {
+  background: url(../images/yinyue_la.png) no-repeat;
+}
+.footer .music .xi {
+  background: url(../images/yinyue_xi.png) no-repeat;
+}
+.footer .bottom {
+  border-top: 2px #9890a2 dashed;
+  text-align: center;
+  line-height: 65px;
+  margin-top: 79px;
+  color: #fff;
+  cursor: pointer;
+}
+.fixed {
+  width: 87px;
+  height: 161px;
+  position: fixed;
+  right: 40px;
+  bottom: 200px;
+  display: block;
+}
+.fixed .fix_top {
+  background: url(../images/scroll_top_bg.png) no-repeat;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  margin-left: 17px;
+  margin-bottom: 24px;
+}
+.fixed .fix_top:hover {
+  background-position: 0 -50px;
+  transition: all 0.3s ease 0s;
+}
+.fixed .fix_next {
+  width: 87px;
+  height: 87px;
+  position: absolute;
+  right: 0;
+  top: 74px;
+  background: url(../images/fixed_contactus.png) top right no-repeat;
+  cursor: pointer;
+}
+.fixed .fix_next:hover {
+  animation: 1s linear 0s normal none 1 running su-pudding;
+  transition: all 0.5s ease 0s;
+}
+@keyframes su-pudding {
+  0% {
+    transform: scale(1.2, 0.78);
+  }
+  1% {
+    transform: scale(1.18, 0.81);
+  }
+  2% {
+    transform: scale(1.16, 0.84);
+  }
+  3% {
+    transform: scale(1.12, 0.87);
+  }
+  4% {
+    transform: scale(1, 0.9);
+  }
+  5% {
+    transform: scale(1.1, 0.93);
+  }
+  6% {
+    transform: scale(1.04, 0.96);
+  }
+  7% {
+    transform: scale(1.01, 0.99);
+  }
+  8% {
+    transform: scale(0.99, 1.02);
+  }
+  9% {
+    transform: scale(0.97, 1.05);
+  }
+  10% {
+    transform: scale(0.95, 1.08);
+  }
+  11% {
+    transform: scale(0.94, 1.06);
+  }
+  12% {
+    transform: scale(0.93, 1.04);
+  }
+  13% {
+    transform: scale(0.93, 1.07);
+  }
+  14% {
+    transform: scale(0.93, 1.07);
+  }
+  15% {
+    transform: scale(0.93, 1.07);
+  }
+  16% {
+    transform: scale(0.94, 1.06);
+  }
+  17% {
+    transform: scale(0.94, 1.06);
+  }
+  18% {
+    transform: scale(0.95, 1.05);
+  }
+  19% {
+    transform: scale(0.96, 1.04);
+  }
+  20% {
+    transform: scale(0.98, 1.02);
+  }
+  21% {
+    transform: scale(0.99, 1.01);
+  }
+  22% {
+    transform: scale(1, 1);
+  }
+  23% {
+    transform: scale(1, 1);
+  }
+  24% {
+    transform: scale(1.01, 0.99);
+  }
+  25% {
+    transform: scale(1.02, 0.98);
+  }
+  26% {
+    transform: scale(1.02, 0.98);
+  }
+  27% {
+    transform: scale(1.02, 0.98);
+  }
+  28% {
+    transform: scale(1.03, 0.97);
+  }
+  29% {
+    transform: scale(1.03, 0.97);
+  }
+  30% {
+    transform: scale(1.02, 0.98);
+  }
+  31% {
+    transform: scale(1.02, 0.98);
+  }
+  32% {
+    transform: scale(1.02, 0.98);
+  }
+  33% {
+    transform: scale(1.02, 0.98);
+  }
+  34% {
+    transform: scale(1.01, 0.99);
+  }
+  35% {
+    transform: scale(1.01, 0.99);
+  }
+  36% {
+    transform: scale(1.01, 0.99);
+  }
+  37% {
+    transform: scale(1, 1);
+  }
+  38% {
+    transform: scale(1, 1);
+  }
+  39% {
+    transform: scale(1, 1);
+  }
+  40% {
+    transform: scale(0.99, 1.01);
+  }
+  41% {
+    transform: scale(0.99, 1.01);
+  }
+  42% {
+    transform: scale(0.99, 1.01);
+  }
+  43% {
+    transform: scale(0.99, 1.01);
+  }
+  44% {
+    transform: scale(0.99, 1.01);
+  }
+  45% {
+    transform: scale(0.99, 1.01);
+  }
+  46% {
+    transform: scale(0.99, 1.01);
+  }
+  47% {
+    transform: scale(0.99, 1.01);
+  }
+  48% {
+    transform: scale(0.99, 1.01);
+  }
+  49% {
+    transform: scale(1, 1);
+  }
+}
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in
+ *    IE on Windows Phone and in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+body {
+  margin: 0;
+}
+/**
+ * Add the correct display in IE 9-.
+ */
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  display: block;
+}
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* Grouping content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in IE.
+ */
+figcaption,
+figure,
+main {
+  /* 1 */
+  display: block;
+}
+/**
+ * Add the correct margin in IE 8.
+ */
+figure {
+  margin: 1em 40px;
+}
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+/**
+ * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+b,
+strong {
+  font-weight: inherit;
+}
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Add the correct background and color in IE 9-.
+ */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+/* Embedded content
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+audio,
+video {
+  display: inline-block;
+}
+/**
+ * Add the correct display in iOS 4-7.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+img {
+  border-style: none;
+}
+/**
+ * Hide the overflow in IE.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: sans-serif;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+/**
+ * 1. Add the correct display in IE 9-.
+ * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */
+}
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+textarea {
+  overflow: auto;
+}
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ */
+details,
+menu {
+  display: block;
+}
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+/* Scripting
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ */
+canvas {
+  display: inline-block;
+}
+/**
+ * Add the correct display in IE.
+ */
+template {
+  display: none;
+}
+/* Hidden
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10-.
+ */
+[hidden] {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.content {
+  width: 100%;
+  min-width: 1100px;
+  height: 744px;
+  background: #fff;
+  overflow: hidden;
+  font-family: 'SimSun';
+  position: relative;
+}
+.content .cont {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.content .cont .cont_cen {
+  overflow: hidden;
+  width: 100%;
+  min-width: 1100px;
+  position: relative;
+}
+.content .cont > .block {
+  background-color: #221236;
+  color: #fff;
+  height: 744px;
+}
+.content .cont > .block .top {
+  height: 560px;
+  position: absolute;
+  top: 40%;
+  margin-top: -280px;
+  width: 100%;
+  text-align: center;
+}
+.content .cont > .block .top > img {
+  margin-left: -50px;
+}
+.content .cont > .block .top > .top_cont {
+  position: relative;
+  top: -35px;
+}
+.content .cont > .block .top > .top_cont > h1 {
+  padding-top: 65px;
+  font-size: 44px;
+  line-height: 48px;
+}
+.content .cont > .block .top > .top_cont > h2 {
+  font-size: 16px;
+  font-family: Arial;
+  letter-spacing: 4px;
+}
+.content .cont > .block .top > .top_cont > .top_cen {
+  padding-top: 15px;
+}
+.content .cont > .block .top > .top_cont > .top_cen > .cen_left {
+  position: relative;
+  left: -8px;
+  top: -30px;
+}
+.content .cont > .block .top > .top_cont > .top_cen > span {
+  font-size: 48px;
+}
+.content .cont > .block .top > .top_cont > .top_cen > .cen_right {
+  position: relative;
+  right: -8px;
+  top: 17px;
+}
+.content .cont > .block .top > .top_cont > p {
+  letter-spacing: 4px;
+}
+.content .cont > .block .top > .top_cont > .tit {
+  margin-top: 20px;
+  padding: 10px;
+}
+.content .cont > .block .top > .top_btm {
+  height: 58px;
+  width: 58px;
+  background: url(../images/aboutxiaoniao/donext.png) 0 -58px no-repeat;
+  margin: -20px auto 0;
+  cursor: pointer;
+  margin-top: 140px;
+}
+.content .cont > .block .top > .top_btm:hover {
+  background-position: 0 0px ;
+  transition: all 0.5s ease 0s;
+}
+.content .cont > .next {
+  background: #ffffff;
+  height: 744px;
+}
+.content .cont > .next > .tran {
+  width: 4800px;
+  position: absolute;
+  left: 0;
+  top: 70px;
+}
+.content .cont > .next > .tran .tran_block {
+  background: #fff;
+  float: left;
+  width: 1100px;
+  height: 560px;
+  margin-bottom: 500px;
+  position: relative;
+}
+.content .cont > .next > .tran > .tran1 {
+  height: 656px;
+  width: 1600px;
+  margin-left: -100px;
+}
+.content .cont > .next > .tran > .tran1 > .tran_block_cont {
+  height: 560px;
+  position: absolute;
+  top: 45%;
+  margin-top: -280px;
+  width: 100%;
+  text-align: center;
+}
+.content .cont > .next > .tran > .tran1 > .tran_block_cont > div {
+  text-align: center;
+}
+.content .cont > .next > .tran > .tran1 > .tran_block_cont > div > .tit {
+  font-size: 54px;
+  color: #311759;
+  font-weight: bold;
+}
+.content .cont > .next > .tran > .tran1 > .tran_block_cont > div > .tit_btm {
+  font-size: 18px;
+  color: #6b6a6f;
+  width: 630px;
+  line-height: 30px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 20px;
+}
+.content .cont > .next > .tran > .tran1 > .tran_block_cont > div > .tit_btm > .cen_left {
+  position: absolute;
+  left: -34px;
+  top: -3px;
+}
+.content .cont > .next > .tran > .tran1 > .tran_block_cont > div > .tit_btm > .cen_right {
+  position: absolute;
+  right: -30px;
+  top: 64px;
+}
+.content .cont > .next > .tran > .tran1 > .tran_block_cont > div > .apps > img {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.content .cont > .next > .tran > .tran2 {
+  height: 656px;
+  width: 1600px;
+}
+.content .cont > .next > .tran > .tran2 > .tran_block_cont {
+  width: 700px;
+  left: 50%;
+  margin-left: -675px;
+  top: 50%;
+  height: 560px;
+  position: absolute;
+  margin-top: -280px;
+  text-align: center;
+}
+.content .cont > .next > .tran > .tran2 > .tran_block_cont > .block {
+  margin-top: 50px;
+  overflow: hidden;
+  color: #6b6a6f;
+  text-align: left;
+}
+.content .cont > .next > .tran > .tran2 > .tran_block_cont > .block > img {
+  float: left;
+}
+.content .cont > .next > .tran > .tran2 > .tran_block_cont > .block > div {
+  float: left;
+  width: 520px;
+  margin-left: 55px;
+}
+.content .cont > .next > .tran > .tran2 > .tran_block_cont > .block > div > h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+.content .cont > .next > .tran > .tran2 > .tran_block_cont > .block > div > h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.content .cont > .next > .tran > .tran3 {
+  height: 656px;
+  width: 1600px;
+}
+.content .cont > .next > .tran > .tran3 > .tran_block_cont {
+  height: 560px;
+  position: absolute;
+  top: 45%;
+  margin-top: -280px;
+  margin-left: -620px;
+  width: 100%;
+  text-align: center;
+}
+.content .cont > .next > .tran > .tran3 > .tran_block_cont > div {
+  width: 630px;
+  line-height: 30px;
+  margin: 0 auto;
+  margin-top: 80px;
+  color: #221236;
+  font-size: 36px;
+  position: relative;
+}
+.content .cont > .next > .tran > .tran3 > .tran_block_cont > div > .cen_left {
+  position: relative;
+  left: -8px;
+  top: -30px;
+}
+.content .cont > .next > .tran > .tran3 > .tran_block_cont > div > .cen_right {
+  position: relative;
+  right: -10px;
+  top: 18px;
+}
+.content .cont > .next > .tran > .tran3 > .tran_block_cont > p {
+  width: 730px;
+  margin: 55px auto 0;
+  line-height: 30px;
+  font-size: 18px;
+  color: #6b6a6f;
+  text-align: left;
+  text-indent: 2em;
+}
+.content .cont > .next > .tran > .tran3 > .tran_block_cont > .btom {
+  margin-top: 90px;
+}
+.content .cont > .next > .tran > .tran_left {
+  width: 58px;
+  height: 58px;
+  background: url(../images/aboutxiaoniao/goleft.png) no-repeat;
+  position: absolute;
+  top: 315px;
+  left: 60px;
+  margin-top: -29px;
+  cursor: pointer;
+}
+.content .cont > .next > .tran > .tran_left:hover {
+  background-position: -58px 0;
+  transition: all 0.5s ease 0s;
+}
+.content .cont > .next > .tran > .tran_right {
+  width: 58px;
+  height: 58px;
+  background: url(../images/aboutxiaoniao/goright.png) -58px 0 no-repeat;
+  position: absolute;
+  top: 315px;
+  left: 1200px;
+  margin-top: -29px;
+  cursor: pointer;
+}
+.content .cont > .next > .tran > .tran_right:hover {
+  background-position: 0 0;
+  transition: all 0.5s ease 0s;
+}
+.content .cont > .val {
+  height: 744px;
+  color: #fff;
+  background: #221236;
+}
+.content .cont > .val > .val_cont {
+  width: 970px;
+  height: 560px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -280px 0 0 -485px;
+}
+.content .cont > .val > .val_cont > h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.content .cont > .val > .val_cont > .val_top_cor {
+  overflow: hidden;
+  margin: 10px 0;
+}
+.content .cont > .val > .val_cont > .val_top_cor > .top_left {
+  float: left;
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.content .cont > .val > .val_cont > .val_top_cor > .top_right {
+  float: right;
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.content .cont > .val > .val_cont > .conts {
+  height: 317px;
+  width: 850px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.content .cont > .val > .val_cont > .conts > .con {
+  float: left;
+  width: 390px;
+  margin-right: 30px;
+  margin-bottom: 46px;
+}
+.content .cont > .val > .val_cont > .conts > .con > div {
+  width: 74px;
+  height: 74px;
+  background: url(../images/aboutxiaoniao/jiazhi_quanquan.png) no-repeat;
+  line-height: 74px;
+  text-align: center;
+  margin-right: 27px;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content .cont > .val > .val_cont > .conts > .con > p {
+  float: left;
+  width: 280px;
+  font-size: 18px;
+  margin-top: 13px;
+}
+.content .cont > .cloud {
+  height: 744px;
+  background: #f1f2f6;
+}
+.content .cont > .cloud > .cloud_cont {
+  width: 910px;
+  height: 560px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -280px 0 0 -455px;
+}
+.content .cont > .cloud > .cloud_cont > h1 {
+  font-size: 54px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #311759;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_cen {
+  height: 420px;
+  width: 910px;
+  overflow: hidden;
+  position: relative;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_cen > div {
+  width: 1820px;
+  height: 420px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_cen > div > div {
+  width: 910px;
+  float: left;
+  line-height: 36px;
+  background: url(../images/aboutxiaoniao/xuxian_bg.png);
+  font-size: 16px;
+  font-family: KaiTi_GB2312;
+  color: #535355;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_cen > div > div > p {
+  text-indent: 2em;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_cen > div > div > .sola {
+  text-indent: 0;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_btn {
+  width: 204px;
+  height: 8px;
+  margin: 0 auto;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_btn > div {
+  float: left;
+  margin: 0 12px;
+  width: 78px;
+  height: 8px;
+  border-radius: 4px;
+  background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) no-repeat 0 -8px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_btn > div > .span {
+  position: absolute;
+  top: 0;
+  left: -78px;
+  width: 78px;
+  height: 8px;
+  background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) no-repeat 0 0px;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_btn > .cloud_btn_left > .cloud_btn {
+  left: 0;
+}
+.content .cont > .cloud > .cloud_cont > .cloud_btn > .cloud_btn_right > .cloud_btn {
+  left: -78px;
+}
+.content .cont > .contact {
+  height: 744px;
+  background: url(../images/aboutxiaoniao/app&contacts_bg.gif) center center no-repeat;
+}
+.content .cont > .contact > .ctts_cont {
+  width: 910px;
+  height: 540px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -280px 0 0 -576px;
+}
+.content .cont > .contact > .ctts_cont > .app_cont {
+  position: relative;
+}
+.content .cont > .contact > .ctts_cont > .app_cont > p {
+  color: #fff;
+  position: absolute;
+  left: 213px;
+  top: 0px;
+}
+.content .cont > .contact > .ctts_cont > .app_cont > h1 {
+  color: #fff;
+  position: absolute;
+  left: 550px;
+  top: 113px;
+}
+.content .cont > .contact > .ctts_cont > .app_cont > img {
+  margin-left: 145px;
+}
+.content .cont > .contact > .ctts_cont > .contts_cont {
+  float: right;
+}
+.content .cont > .contact > .ctts_cont > .contts_cont > h1 {
+  line-height: 60px;
+  height: 60px;
+  width: 380px;
+  background: url(../images/aboutxiaoniao/contacts_line.png) no-repeat bottom left;
+  color: #191919;
+  margin-bottom: 14px;
+}
+.content .cont > .contact > .ctts_cont > .contts_cont > p {
+  line-height: 32px;
+  color: #191919;
+}

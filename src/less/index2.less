@@ -1,0 +1,128 @@
+@import 'header';
+@import 'footer';
+@import 'normalize';
+h1,h2,h3{
+    margin: 0;
+}
+.content{
+    width: 780px;
+    margin: 0 auto;
+    min-height: 700px;
+    background: #fff;
+    padding: 70px 160px 220px 160px;
+    font-family: "SimSun";
+    >h1{
+        text-align: center;
+        font-size: 54px;
+        color: #311759;
+        line-height: 60px;
+    }
+    >h2{
+        font-weight: normal;
+        font-size: 18px;
+        color: #311759;
+        letter-spacing: 6px;
+        text-align: center;
+    }
+    >img{
+        margin: 0 auto;
+        display: block;
+        margin-top: 15px;
+    }
+    >h3{
+        color: #311759;
+        font-size: 30px;
+        background: url(../images/pen_line_long.png) no-repeat -320px 58px;
+        height: 60px;
+        position: relative;
+        margin-top: 70px;
+        .cont_pen{
+            width: 61px;
+            height: 58px;
+            background: url(../images/pen_article.png) no-repeat;
+            position: absolute;
+            right: 0px;
+            top: 7px;
+            cursor: pointer;
+        }
+    }
+    .cont_next{
+        color: #6b6a6f;
+        padding-top: 15px;
+        margin-bottom: 60px;
+        >span{
+            font-family: Arial;
+            font-size: 12px;
+        }
+    }
+    .cont_cen{
+        .cont_top{
+            margin-bottom: 35px;
+            >img{
+                border: none 0;
+            }
+        }
+        .cont_con{
+            >p{
+                font-size: 15px;
+                line-height: 22px;
+                margin-bottom: 23px;
+            }
+            .tit{
+                font-size: 22px;
+            }
+            >ul li{
+                list-style-type:none;  
+                list-style-image: url(../images/symbol.png);
+            }
+        }
+        .btn{
+            margin-top: 80px;
+            margin-left: 350px;
+            width: 73px;
+            height: 73px;
+            overflow: hidden;
+            &:hover{
+                width:213px;
+	            animation:1s linear 0s normal none 1 running su-pudding;
+            }
+            .btn_cen{
+                width: 220px;
+                .like_btn{
+                    width: 73px;
+                    height: 73px;
+                    float: left;
+                    background: url(../images/article_iflike.png) no-repeat;
+                    cursor: pointer;
+                }
+                .nob{
+                    width: 135px;
+                    height: 35px;
+                    float: left;
+                    margin-left: 5px;
+                    background: url(../images/article_iflike_nomberbg.png) no-repeat;
+                    margin-top: 19px;
+                    padding-top: 8px;
+                    color: #fff;
+                    text-align: center;
+                    padding-left: 5px;
+                }
+            }
+        }
+        .tips{
+	        margin-top:54px;
+            .tip{
+                padding:27px 10px;
+                background:#f1f2f6;
+                border-radius:5px;
+                top:370px;
+                left:258px;
+                color:#311859;
+                font-size:24px;
+                text-align:center;
+                width: 235px;
+                margin: 0 auto;
+            }
+        }
+    }
+}
